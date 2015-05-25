@@ -83,7 +83,7 @@ autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 " set nobackup " We have vcs, we don't need backups.
 " set nowritebackup " We have vcs, we don't need backups.
 " set noswapfile " They're just annoying. Who likes them?
-set directory=./vim/swp//
+set directory=~/vim/swp//,.
  
 " don't nag me when hiding buffers
 set hidden " allow me to have buffers with unsaved changes.
